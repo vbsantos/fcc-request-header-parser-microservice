@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <title>Request Header Parser Microservice</title>
+</head>
+
+<body>
+  <div id="main-container">
+    <h1>Request Header Parser Microservice</h1>
+    <p>
+      This is a simple microservice that parses the request header and returns the IP address, language, and software of
+      the user's browser.
+    </p>
+
+    <h2>Usage</h2>
+    <p>
+      Send a request to
+      <a href="/api/whoami" target="_blank"><code>/api/whoami</code></a> to get information about the user's browser.
+    </p>
+    <h2>Example Output</h2>
+    <p>
+      <code>
+        {
+          "ipaddress": "127.0.0.1",
+          "language": "en-US",
+          "software": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+        }
+      </code>
+    </p>
+
+    <h2>Try yourself</h2>
+    <form action="/api/whoami" method="get">
+      <p><button type="submit">whoami</button></p>
+    </form>
+    <p id="result">
+      <!-- Results will be displayed here -->
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
