@@ -2,10 +2,10 @@
 
 ## Certification Project - Request Header Parser Microservice
 
-- [ ] You should provide your own project, not the example URL.
-- [ ] Waiting: A request to /api/whoami should return a JSON object with your IP address in the ipaddress key.
-- [ ] Waiting: A request to /api/whoami should return a JSON object with your preferred language in the language key.
-- [ ] Waiting: A request to /api/whoami should return a JSON object with your software in the software key.
+- [x] You should provide your own project, not the example URL.
+- [x] Waiting: A request to /api/whoami should return a JSON object with your IP address in the ipaddress key.
+- [x] Waiting: A request to /api/whoami should return a JSON object with your preferred language in the language key.
+- [x] Waiting: A request to /api/whoami should return a JSON object with your software in the software key.
 
 ---
 
